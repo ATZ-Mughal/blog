@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Not Available</title>
+        <style>
+           *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(90deg, rgba(3,64,30,1) 0%, rgba(0,0,0,0.9886039886039886) 63%);
+        }
+
+        .container {
+            background:transparent;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #0eb65a;
+            text-align: center;
+            color: white;
+            width: 450px;
+            margin: 25px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        
+        div>p{
+            font-size: 25px;
+        }
+
+        .btn1, .btn2 {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .btn1 {
+            background-color: #08d665;
+            color: white;
+            border: 1px solid #08d665;
+        }
+        
+        .btn2 {
+            background: transparent;
+            color: #08d665;
+            border: 1px solid #08d665;
+        }
+        
+        .btn1:hover {
+            background-color: transparent;
+            color: #08d665;
+            box-shadow: 0 0 15px #0eb65a;
+            transform: scale(1.03);
+        }
+        
+        .btn2:hover {
+            background-color: rgba(8, 214, 101, 0.1); /* Lighten the background on hover */
+            color: #08d665;
+            box-shadow: 0 0 15px #0eb65a;
+            transform: scale(1.03);
+        }
+
+        /* RESPONSIVE CSS starts from here*/
+
+        @media screen and (max-width: 360px){
+            
+        .button-container {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .btn1, .btn2 {
+            padding: 15px 20px;
+            font-size: 16px;
+            width: 80%;
+        }
+
+        div>p{
+            font-size: 18px;
+        }
+        
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <p>Sorry, I'm not available yet. You can contact me by clicking
+                on the button below.</p>
+            <div class="button-container">
+                <a href="index.html#contact"><button class="btn1">Contact Me</button></a>
+                <a href="index.html"><button class="btn2">Go Home</button></a>
+            </div>
+        </div>
+    </body>
+
+</html>
