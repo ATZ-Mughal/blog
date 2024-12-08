@@ -467,8 +467,13 @@ a.back-to-top:focus {
   padding: 15px 0;
 }
 
+/* @media only screen and (max-width: 768px) {
+  .navbar-brand p {
+    padding-top: ;
+  }
+} */
+
 .navbar-brand p {
-  padding-top: 17px;
   font-size: 32px;
   text-transform: uppercase;
   color: #08d665;
