@@ -4007,6 +4007,7 @@ tbody.collapse.show {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
   .container {
     margin: 0;
