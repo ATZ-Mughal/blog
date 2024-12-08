@@ -4009,9 +4009,9 @@ tbody.collapse.show {
     align-items: center;
     flex-wrap: wrap;
   }
-  .container {
+/*   .container {
     margin: 0;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
