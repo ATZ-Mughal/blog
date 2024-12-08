@@ -667,6 +667,14 @@ pre code {
   .container {
     padding-right: 15px;
     padding-left: 15px;
+}
+}
+@media (max-width: 576px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 15px;
+        padding-left: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -4003,13 +4011,13 @@ tbody.collapse.show {
     position: static;
     float: none;
   }
-  .navbar-toggleable-sm > .container {
+
+  /* .navbar-toggleable-sm > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-  }
-/*   .container {
+  } */
+  /* .container {
     margin: 0;
   } */
 }

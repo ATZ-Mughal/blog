@@ -467,12 +467,6 @@ a.back-to-top:focus {
   padding: 15px 0;
 }
 
-/* @media only screen and (max-width: 768px) {
-  .navbar-brand p {
-    padding-top: ;
-  }
-} */
-
 .navbar-brand p {
   font-size: 32px;
   text-transform: uppercase;
@@ -489,6 +483,10 @@ a.back-to-top:focus {
   .bg-faded {
     background: #fff;
     animation: fadeInDown 1s both 0.2s;
+  }
+
+  .navbar-brand p {
+    padding-top: 17px; ;
   }
 }
 
